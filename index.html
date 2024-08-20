@@ -319,11 +319,11 @@
           <h2 class="font-extrabold text-4xl">Frequently  <span class="text-bike-primary">Asked Questions</span></h2>
          </div>
         <div class="hero mt-12">
-          <div class="hero-content flex-col lg:flex-row gap-4">
+          <div class="hero-content flex-col lg:flex-row lg:gap-4">
             <img
               src="./images/others/faq.png"
-              class="max-w-lg rounded-lg shadow-2xl" />
-              <div class="space-y-4 lg:max-w-[500px]">
+              class="lg:max-w-lg rounded-lg shadow-2xl" />
+              <div class="space-y-4  ">
                 <div class="collapse collapse-arrow bg-base-200">
                   <input type="radio" name="my-accordion-2" checked="checked" />
                   <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
@@ -374,8 +374,38 @@
 
        </section>
   </main>
-  <footer>
-
+  <footer class="footer bg-black text-neutral-content p-10 mt-16">
+    <section class=" lg:max-w-screen-2xl mx-auto space-y-3 flex justify-between gap-40">
+      <aside class="space-y-4">
+        <div class="flex gap-8">
+         <a href="#">Download</a>
+         <a href="#">License</a>
+        </div>
+        <div class="grid grid-cols-4 lg:grid-cols-6 lg:gap-8 gap-2">
+         <a href="#">About</a>
+         <a href="#">Feature</a>
+         <a href="#">Pricing</a>
+         <a href="#">Careers</a>
+         <a href="#">Help</a>
+         <a href="#">Privacy Policy</a>
+        </div>
+       <p class="mt-4">
+         © 2020 bike. All rights reserved
+       </p>
+     </aside>
+     <nav class="">
+       <h6 class="footer-title">Get the App</h6>
+       <div class="grid grid-cols-1 lg:grid-cols-1 gap-3">
+         
+         <a>
+           <img src="./images/others/android.png" alt="">
+         </a>
+         <a>
+           <img src="./images/others/ios.png" alt="">
+         </a>
+       </div>
+     </nav>
+    </section>
   </footer>
   
  </body>
